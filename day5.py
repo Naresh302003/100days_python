@@ -24,10 +24,33 @@
 # print(f"Manual method max score: {mx_score}")
 
 # Range
-print(list(range(1,11)))
+# print(list(range(1,11,3)))
 
-sum1 = 0
-for i in range(1,21):
-    sum1 += i
-print(sum1)
+# sum1 = 0
+# for i in range(1,21,2):
+#     sum1 += i
+# print(sum1)
+
+# Exercise 1
+# total = 0
+# for j in range(1,101):
+#     total += j
+# print(total)
+
+
+# EXERCISE PROBLEM 1 
+for number in range(1,101):
+    if (number % 3 == 0) and (number % 5 == 0):
+        print("FizzBuzz")
+    elif (number % 3 == 0):
+        print("Fizz")
+    elif (number % 5 == 0):
+        print("Buzz")
+    else:
+        print(number)
+
+
+
+
+
 
