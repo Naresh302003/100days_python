@@ -60,7 +60,7 @@ import day3
 # indian_states.extend(["Dubai","Georgia","Delaware"])
 # print(indian_states[::])
 
-
+# Stone paper Scissor Game
 import random
 print("Welcome to Calculator Application")
 rock = '''  
